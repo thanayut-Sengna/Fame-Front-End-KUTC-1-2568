@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        body{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+<fieldset>    
+    <form action="/index.html">
+        <h1>Basic Form</h1>
+            <label for="RealName">RealName</label><!-- Text -->
+                <input type="text" name="RealName" id="RealName" value="นายธนายุต" readonly >
+                    <label for="SurName">SurName</label>
+                        <input type="text" name="SurName" id="SurName" disabled ><br>
+                            <p>Gender</p>    
+                                <input type="radio" name="Gender" id="Male"><!-- redio -->
+                                    <label for="Male">Male</label>
+                                        <input type="radio" name="Gender" id="FeMale">
+                                            <label for="FeMale">FeMale</label><br>
+                                        <p>Department</p>    
+                                    <select name="Department" id="Department"><!-- select -->
+                                <option value="Computer">Computer</option>
+                            <option value="IT">Information Tecnology</option>
+                        <option value="Marketing">Marketing</option>
+                    </select><p>Device</p>                       
+                <input type="checkbox" name="Phone" id="Phone"><!-- checkbox -->
+            <label for="">Phone</label> 
+        <input type="checkbox" name="Tablet" id="Tablet">
+    <label for="">Tablet</label>  
+        <input type="checkbox" name="Laptop" id="Laptop">
+            <label for="Latop">Laptop</label><br>
+                <p>About</p><!-- textarea -->
+                    <textarea name="About" id="About" placeholder="Please input your in formaation"></textarea><br>
+                        <p>Brithday</p><!-- date -->
+                            <input type="date" name="Brithday" id="Brithday"><br>
+                                <p>Choose Your Profile</p><!-- Input file -->
+                                    <input type="file" name="File" id="File" multiple ><br>
+                                        <p>Choose Your Color</p><!-- rInput Color -->
+                                            <input type="color" name="Color" id="Color"><br>
+                                        <p>Choose Your Salary</p><!-- Input Rang -->
+                                    <input type="range" name="Rang" id="Rang"><br>
+                                <p>Your Phone Numeber</p><!-- Numeber -->
+                            <input type="number" name="Numeber" id="Numeber" max="5" min="0" ><br>
+                        <p>Input Your PassWord</p><!-- PassWord -->
+                    <input type="password" name="PassWord" id="PassWord" maxlength="10" ><br>
+                <button>OK</button><!-- Button -->
+            <input type="submit" value="Accept"> 
+    </form>
+</fieldset>
+</body>
+</html>
