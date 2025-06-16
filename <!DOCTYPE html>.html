@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>อนิเมชันเส้นวิ่ง</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .line-container {
+      position: relative;
+      width: 80%;
+      height: 5px;
+      background-color: #ddd;
+      overflow: hidden;
+    }
+
+    .running-line {
+      position: absolute;
+      width: 20%;
+      height: 100%;
+      background-color: rgb(255, 99, 71); /* Tomato */
+      animation: run 2s linear infinite;
+    }
+
+    @keyframes run {
+      0% {
+        left: -20%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="line-container">
+    <div class="running-line"></div>
+  </div>
+</body>
+</html>
