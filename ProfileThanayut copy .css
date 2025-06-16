@@ -126,18 +126,24 @@ circle-container {
     .circle:nth-child(3) {
       animation-delay: 2s;
     }
-
+    .circle:nth-child(4) {
+      animation-delay: 3s;
+    }
+    
     @keyframes move {
       0%, 100% {
         transform: translate(0, 0);
       }
       25% {
         transform: translate(100px, 0);
+        background: red;
       }
       50% {
         transform: translate(100px, 100px);
+        background: yellow;
       }
       75% {
         transform: translate(0, 100px);
+        background: #33ff3d;
       }
     }
