@@ -12,6 +12,4 @@ window.onscroll = () => {
             sec.classList.remove('show.aminate');
         }
     })
-       
-    
 }

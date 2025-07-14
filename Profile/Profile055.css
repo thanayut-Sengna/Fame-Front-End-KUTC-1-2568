@@ -86,7 +86,7 @@ table{
         text-align: center;
     }
         .inptext{
-            width: 300px;
+            width: 100%;
             height: 50px;
             border-radius: 30px;
             border: none;
