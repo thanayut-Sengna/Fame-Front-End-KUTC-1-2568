@@ -1,0 +1,51 @@
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: black;
+            height: 100%;
+        }
+        .ligthMode{
+            background: white;
+                        transition: 1s;
+        }
+        .DarkMode{
+            background: black;
+                        transition: 1s;
+        }
+        .Test-2{
+            background: yellow;
+            padding: 15px;
+            font-size: 20px;
+            box-shadow: 5px 5px 20px rgb(0, 75, 5);
+            margin: 20px;
+            transition: 1s;
+        }
+        .Test-2-2{
+            background: rgb(255, 0, 0);
+            padding: 15px;
+            font-size: 20px;
+            box-shadow: 5px 5px 20px orange;
+            margin: 20px;
+            color: aliceblue;
+            font-weight: bold;
+            transition: 1s;
+        }
+        button{
+            padding: 20px;
+            background: cornsilk;
+            border: none;
+            box-shadow: 5px 5px 20px;
+            margin: 20px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .dib-print{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: solid 1px black;
+            margin: 20px;
+        }
